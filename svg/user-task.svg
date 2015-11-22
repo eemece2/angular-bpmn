@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3048" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata3053">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" stroke="#000" fill="none">
+  <path id="path3056" stroke-linejoin="miter" d="M27.781,18.062c-1.061,1.278-2.499,2.094-4.125,2.094-1.46,0-2.818-0.662-3.844-1.718-7.111,4.032-8.75,17.124-8.75,17.124s5.496,2.853,11.782,2.782c6.285-0.072,11.656-2.563,11.656-2.563s0.45-14.191-6.688-17.719c-0.003,0.005-0.027-0.004-0.031,0z" stroke-linecap="butt" stroke-width="1px"/>
+  <path id="path3828" stroke-linejoin="miter" d="m14.643,36.929c2.5714-8.9286,2.5-10.571,2.5-10.571" stroke-linecap="butt" stroke-width="1px"/>
+  <path id="path3828-1" stroke-linejoin="miter" d="m31.822,36.786c-2.5714-8.9286-2.5-10.571-2.5-10.571" stroke-linecap="butt" stroke-width="1px"/>
+  <path id="path3058-5" stroke-linejoin="round" d="m31.071,15.643a5.8571,7,0,1,1,-11.714,0,5.8571,7,0,1,1,11.714,0z" transform="translate(-1.6428564,-4.0000005)" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1"/>
+ </g>
+</svg>

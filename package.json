@@ -1,0 +1,44 @@
+{
+  "name": "angular-bpmn",
+  "version": "0.0.1",
+  "description": "BPMN 2.0 viewer build with AngularJS",
+  "main": "server.js",
+  "dependencies": {
+    "deepcopy": "^0.5.0",
+    "eyes": "^0.1.8",
+    "libxmljs": "^0.14.0",
+    "express": "^4.12.3",
+    "xml2js": "^0.4.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-inject": "^1.2.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-ng-annotate": "^0.5.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-svg-sprite": "^1.1.2",
+    "gulp-svg-symbols": "^0.3.1",
+    "gulp-svgmin": "^1.1.2",
+    "gulp-uglify": "^1.2.0",
+    "jasmine-core": "^2.3.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.8",
+    "karma-jasmine": "^0.3.5",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "merge-stream": "^0.1.7",
+    "vinyl": "^0.4.6",
+    "xml2js": "^0.4.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "bpmn",
+    "AngularJS"
+  ],
+  "author": "Eduardo Martinez Cobos",
+  "license": "MIT"
+}

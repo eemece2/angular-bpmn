@@ -1,0 +1,9 @@
+<g ng:attr:transform="translate({{participant.bounds.x}},{{participant.bounds.y}})" >
+    <rect x="0" y="0"
+        ng:attr:width="{{participant.bounds.width}}" ng:attr:height="{{participant.bounds.height}}"
+        class="participant"
+    ></rect>
+    <text class="participant-label" ng:attr:transform="rotate(-90) translate({{participant.label.x}},{{participant.label.y}})">
+        {{participant.participant.$.name}}
+    </text>
+</g>

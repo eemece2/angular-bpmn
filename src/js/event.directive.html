@@ -1,0 +1,8 @@
+<g ng:attr:transform="translate({{event.bounds.x}},{{event.bounds.y}})" >
+    <circle x="0" y="0"
+        ng:attr:cx="{{event.bounds.width / 2}}" ng:attr:cy="{{event.bounds.height / 2}}"
+        ng:attr:r="{{event.bounds.width / 2}}"
+        class="event event-{{event.type}}"
+    ></circle>
+    <text ng:attr:transform="translate({{event.label.x}},{{event.label.y}}) translate(0,15)">{{event.event.$.name}}</text>
+</g>

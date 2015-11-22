@@ -1,0 +1,14 @@
+<g ng:attr:transform="translate({{gateway.bounds.x}},{{gateway.bounds.y}})" >
+    <polygon x="0" y="0"
+        ng:attr:points="
+           {{gateway.bounds.width / 2}},0
+           {{gateway.bounds.width}},{{gateway.bounds.height / 2}}
+           {{gateway.bounds.width / 2}},{{gateway.bounds.height}}
+           0,{{gateway.bounds.height / 2}}
+           "
+        class="gateway"
+        ng-class="gateway.type"
+    ></polygon>
+    <use ng:attr:xlink:href="{{'#simbol-'+gateway.type}}" x="10" y="10"/>
+    <text ng:attr:transform="translate({{gateway.label.x}},{{gateway.label.y}}) translate(0,15)">{{gateway.gateway.$.name}}</text>
+</g>

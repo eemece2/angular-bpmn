@@ -1,0 +1,11 @@
+<g ng:attr:transform="translate({{task.bounds.x}},{{task.bounds.y}})" >
+    <rect x="0" y="0"
+        ng:attr:width="{{task.bounds.width}}" ng:attr:height="{{task.bounds.height}}"
+        rx="8" ry="8"
+        class="task"
+    ></rect>
+    <text ng:attr:transform="translate({{task.label.x}},{{task.label.y}})">{{task.task.$.name}}</text>
+    <!--<image x="20" y="20" width="20" height="20" xlink:href="/svg/user.svg" />-->
+    <!--<use xlink:href="#simbol-user" x="5" y="5" />-->
+    <use ng:attr:xlink:href="{{task.symbol}}" xlink:href="" x="2" y="2" width="32" height="32" />
+</g>

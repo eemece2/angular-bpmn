@@ -1,0 +1,12 @@
+<svg id="{{bpmn.definitions.prueba.id}}" od="{{bpmn.dos.id}}" ng:attr:width="{{bpmn.w}}" ng:attr:height="{{bpmn.h}}" class="bpmn">
+
+   <svg-symbols></svg-symbols>
+
+   <svg-defs></svg-defs>
+
+   <participant ng-repeat="participant in bpmn.definitions.collaboration[0].participant" participant="participant"></participant>
+
+   <process ng-repeat="process in bpmn.definitions.process" process="process"></process>
+
+</svg>
+

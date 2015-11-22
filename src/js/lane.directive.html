@@ -1,0 +1,7 @@
+<g ng:attr:transform="translate({{lane.bounds.x}},{{lane.bounds.y}})" >
+    <rect x="0" y="0"
+        ng:attr:width="{{lane.bounds.width}}" ng:attr:height="{{lane.bounds.height}}"
+        class="lane"
+    ></rect>
+    <text class="lane-label" ng:attr:transform="rotate(-90) translate({{lane.label.x}},{{lane.label.y}})">{{lane.lane.$.name}}</text>
+</g>

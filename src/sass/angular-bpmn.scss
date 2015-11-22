@@ -1,0 +1,55 @@
+// Varialbes
+$default-stroke-width: 2px;
+$end-stroke-width: 4px;
+$default-stroke: #666;
+//
+
+
+.bpmn {
+    background-color: #eee;
+}
+
+.task,
+.event,
+.gateway,
+.lane,
+.participant {
+    fill: transparent;
+    stroke: $default-stroke;
+    stroke-width: $default-stroke-width;
+}
+
+.event-end {
+    stroke-width: $end-stroke-width;
+}
+
+
+.sequence-flow {
+    fill: transparent;
+    stroke: $default-stroke;
+    stroke-width: $default-stroke-width;
+    marker-end: url(#marker-arrow);
+}
+
+.marker-arrow {
+    fill: $default-stroke;
+    stroke-width: 0px;
+    stroke: $default-stroke;
+}
+
+.parallel {
+    stroke-width: $default-stroke-width;
+    stroke: $default-stroke;
+}
+
+.simbol-parallel,
+.simbol-exclusive {
+    stroke-width: 4px;
+    stroke: $default-stroke;
+}
+
+.participant-label,
+.lane-label {
+    text-anchor: middle;
+}
+

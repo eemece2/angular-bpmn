@@ -1,0 +1,40 @@
+.bpmn {
+  background-color: #eee; }
+
+.task,
+.event,
+.gateway,
+.lane,
+.participant {
+  fill: transparent;
+  stroke: #666;
+  stroke-width: 2px; }
+
+.event-end {
+  stroke-width: 4px; }
+
+.sequence-flow {
+  fill: transparent;
+  stroke: #666;
+  stroke-width: 2px;
+  marker-end: url(#marker-arrow); }
+
+.marker-arrow {
+  fill: #666;
+  stroke-width: 0px;
+  stroke: #666; }
+
+.parallel {
+  stroke-width: 2px;
+  stroke: #666; }
+
+.simbol-parallel,
+.simbol-exclusive {
+  stroke-width: 4px;
+  stroke: #666; }
+
+.participant-label,
+.lane-label {
+  text-anchor: middle; }
+
+/*# sourceMappingURL=maps/angular-bpmn.css.map */

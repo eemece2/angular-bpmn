@@ -1,0 +1,14 @@
+<g>
+   <lane ng-repeat="lane in process.process.laneSet[0].lane" lane="lane"></lane>
+   <task ng-repeat="task in process.process.task" task="task"></task>
+   <user-task ng-repeat="task in process.process.userTask" task="task"></user-task>
+   <script-task ng-repeat="task in process.process.scriptTask" task="task"></script-task>
+   <service-task ng-repeat="task in process.process.serviceTask" task="task"></service-task>
+   <send-task ng-repeat="task in process.process.sendTask" task="task"></send-task>
+   <receive-task ng-repeat="task in process.process.receiveTask" task="task"></receive-task>
+   <start-event ng-repeat="event in process.process.startEvent" event="event"></start-event>
+   <end-event ng-repeat="event in process.process.endEvent" event="event"></end-event>
+   <parallel-gateway ng-repeat="gateway in process.process.parallelGateway" gateway="gateway"></parallel-gateway>
+   <exclusive-gateway ng-repeat="gateway in process.process.exclusiveGateway" gateway="gateway"></exclusive-gateway>
+   <sequence-flow ng-repeat="sequenceFlow in process.process.sequenceFlow" sf="sequenceFlow"></sequence-flow>
+</g>
