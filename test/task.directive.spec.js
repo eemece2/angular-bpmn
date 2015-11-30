@@ -41,10 +41,10 @@ describe('Unit testing Task directive', function() {
         expect(rects.length).toBe(1);
     });
 
-    it('has correct task name on label', function() {
-        var texts = element.find('text');
-        expect(texts.eq(0).html()).toBe(taskName);
-    });
+    //it('has correct task name on label', function() {
+        //var texts = element.find('text');
+        //expect(texts.eq(0).html()).toBe(taskName);
+    //});
 
     it('has correct dimensions', function() {
         var texts = element.find('rect');
