@@ -68,7 +68,7 @@ With Jenkins you can use the following build commands:
 ```sh
 npm install
 bower install
-karma start karma.ci.conf.js
+karma start karma.jenkins.conf.js
 ```
 junit test reports will be created at folder *./test-reports*
 
