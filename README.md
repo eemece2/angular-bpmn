@@ -23,6 +23,8 @@ To launch the example on your pc use:
 ```sh
 git clone https://github.com/eemece2/angular-bpmn.git
 cd angular-bpmn
+npm install
+bower install
 node example/server.js
 ```
 and browse to
