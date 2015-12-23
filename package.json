@@ -31,8 +31,7 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "merge-stream": "^0.1.7",
     "phantomjs": "^1.9.19",
-    "vinyl": "^0.4.6",
-    "xml2js": "^0.4.8"
+    "vinyl": "^0.4.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
